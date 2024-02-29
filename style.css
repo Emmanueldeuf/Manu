@@ -1,0 +1,132 @@
+/* style.css */
+
+/* Réinitialisation des marges et des paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style de base pour le corps */
+body {
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style pour la barre de navigation */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Style pour la bannière */
+.banner {
+  background-color: #007bff;
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+.banner a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #0056b3;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.banner a:hover {
+  background-color: #003366;
+}
+
+/* Style pour les sections */
+section {
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-family: 'Chivo', sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+section p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Style pour les témoignages */
+.testimonial {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial cite {
+  font-weight: bold;
+}
+
+/* Style pour le formulaire de réservation */
+.reservation-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style pour le pied de page */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
